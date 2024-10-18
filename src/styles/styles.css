@@ -12,7 +12,9 @@
 
 @media (max-width: 767px) {
   .container {
-    padding: 3,5rem 0.2rem;
+    padding:
+      3,
+      5rem 0.2rem;
   }
 }
 
@@ -26,15 +28,22 @@ header {
   text-align: center;
 }
 
-.header__links {
-  margin: 1rem 0;
+.header__links > a {
+  display: none;
 }
 
-.header__links > a {  
-  text-decoration: none;
-  border: 1px solid black;
-  padding: 0.5rem;
-  margin-right: 0.5rem;
+@media (min-width: 768px) {
+  .header__links {
+    margin: 1rem 0;
+  }
+
+  .header__links > a {
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+  }
 }
 
 h1 {
@@ -59,6 +68,5 @@ h2 {
 article {
   width: 400px;
   background-color: hotpink;
-  margin: 0.8rem; 
+  margin: 0.8rem;
 }
-
