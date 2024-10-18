@@ -24,6 +24,11 @@ h2 {
   color: blue;
 }
 
+.news-heading {
+  border-bottom: 1px solid rgb(67, 67, 67);
+  padding-bottom: 0.4rem;
+}
+
 article {
   width: 400px;
   background-color: hotpink;
