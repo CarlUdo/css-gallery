@@ -3,3 +3,30 @@
   margin: 0;
   padding: 0;
 }
+
+.container {
+  padding: 2rem;
+}
+
+@media (max-width: 767px) {
+  .container {
+    padding: 0 0.2rem 0.5rem 0.2rem;
+  }
+}
+
+section {
+  display: flex;
+  flex: row;
+  flex-wrap: wrap;
+}
+
+h2 {
+  color: blue;
+}
+
+article {
+  width: 400px;
+  background-color: hotpink;
+  margin: 0.8rem; 
+}
+
