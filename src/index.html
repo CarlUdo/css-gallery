@@ -10,10 +10,10 @@
     <link rel="stylesheet" href="styles/styles.css" />
     <link rel="stylesheet" href="styles/card.css" />
     <link rel="stylesheet" href="styles/news-section.css" />
-    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/header.css" />
     <script>
-      document.addEventListener('DOMContentLoaded', () => {
-        const cards = document.querySelectorAll('.card__image');
+      document.addEventListener("DOMContentLoaded", () => {
+        const cards = document.querySelectorAll(".card__image");
 
         cards.forEach((card, index) => {
           if (window.innerWidth < 768) {
@@ -22,100 +22,256 @@
             card.style.backgroundImage = `url('https://picsum.photos/340/250?random=${index + 1}')`;
           } else {
             card.style.backgroundImage = `url('https://picsum.photos/320/200?random=${index + 1}')`;
-          }    
+          }
         });
-      });      
+      });
     </script>
   </head>
   <body>
-      <div class="container">
-        <header class="header">
-          <h1 class="header__title">All the news - All the time</h1>
-          <div class="header__sub-title">Welcome to my personal news outlet</div>
-          <div class="header__links">
-            <a href="#" class="header__link">Breaking</a>
-            <a href="#" class="header__link">International</a>
-            <a href="#" class="header__link">Sports</a>
-          </div>
-        </header>
+    <div class="container">
+      <header class="header">
+        <h1 class="header__title">All the news - All the time</h1>
+        <div class="header__sub-title">Welcome to my personal news outlet</div>
+        <div class="header__links">
+          <a href="#" class="header__link">Breaking</a>
+          <a href="#" class="header__link">International</a>
+          <a href="#" class="header__link">Sports</a>
+        </div>
+      </header>
 
-        <section class="news-section">
-          <h3 class="news-section__heading">Breaking news</h3>
-          <div class="news-section__articles">
-            <article class="card">
-              <div class="card__image"></div>
+      <section class="news-section">
+        <h3 class="news-section__heading">Breaking news</h3>
+        <div class="news-section__articles">
+          <article class="card">
+            <div class="card__image"></div>
 
-              <div class="card__content">
-                <h4 class="card__heading">Heading for Article</h4>
-                <p class="card__text">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Officia, ab.
-                </p>
-                <div class="card__footer">
-                  <div class="card__button-group">
-                    <button class="card__button">Read</button>
-                    <button class="card__button">Share</button>
-                  </div>
-                  <span class="card__counter">316 words</span>
+            <div class="card__content">
+              <h4 class="card__heading">Heading for Article</h4>
+              <p class="card__text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Officia, ab.
+              </p>
+              <div class="card__footer">
+                <div class="card__button-group">
+                  <button class="card__button">Read</button>
+                  <button class="card__button">Share</button>
                 </div>
+                <span class="card__counter">316 words</span>
               </div>
-            </article>
-            <article class="card">
-              <div class="card__image"></div>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card__image"></div>
 
-              <div class="card__content">
-                <h4 class="card__heading">Heading for Article</h4>
-                <p class="card__text">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Officia, ab.
-                </p>
-                <div class="card__footer">
-                  <div class="card__button-group">
-                    <button class="card__button">Read</button>
-                    <button class="card__button">Share</button>
-                  </div>
-                  <span class="card__counter">316 words</span>
+            <div class="card__content">
+              <h4 class="card__heading">Heading for Article</h4>
+              <p class="card__text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Officia, ab.
+              </p>
+              <div class="card__footer">
+                <div class="card__button-group">
+                  <button class="card__button">Read</button>
+                  <button class="card__button">Share</button>
                 </div>
+                <span class="card__counter">316 words</span>
               </div>
-            </article>
-            <article class="card">
-              <div class="card__image"></div>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card__image"></div>
 
-              <div class="card__content">
-                <h4 class="card__heading">Heading for Article</h4>
-                <p class="card__text">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Officia, ab.
-                </p>
-                <div class="card__footer">
-                  <div class="card__button-group">
-                    <button class="card__button">Read</button>
-                    <button class="card__button">Share</button>
-                  </div>
-                  <span class="card__counter">316 words</span>
+            <div class="card__content">
+              <h4 class="card__heading">Heading for Article</h4>
+              <p class="card__text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Officia, ab.
+              </p>
+              <div class="card__footer">
+                <div class="card__button-group">
+                  <button class="card__button">Read</button>
+                  <button class="card__button">Share</button>
                 </div>
+                <span class="card__counter">316 words</span>
               </div>
-            </article>
-            <article class="card">
-              <div class="card__image"></div>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card__image"></div>
 
-              <div class="card__content">
-                <h4 class="card__heading">Heading for Article</h4>
-                <p class="card__text">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Officia, ab.
-                </p>
-                <div class="card__footer">
-                  <div class="card__button-group">
-                    <button class="card__button">Read</button>
-                    <button class="card__button">Share</button>
-                  </div>
-                  <span class="card__counter">316 words</span>
+            <div class="card__content">
+              <h4 class="card__heading">Heading for Article</h4>
+              <p class="card__text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Officia, ab.
+              </p>
+              <div class="card__footer">
+                <div class="card__button-group">
+                  <button class="card__button">Read</button>
+                  <button class="card__button">Share</button>
                 </div>
+                <span class="card__counter">316 words</span>
               </div>
-            </article>
-          </div>
-        </section>
-      </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="news-section">
+        <h3 class="news-section__heading">International news</h3>
+        <div class="news-section__articles">
+          <article class="card">
+            <div class="card__image"></div>
+
+            <div class="card__content">
+              <h4 class="card__heading">Heading for Article</h4>
+              <p class="card__text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Officia, ab.
+              </p>
+              <div class="card__footer">
+                <div class="card__button-group">
+                  <button class="card__button">Read</button>
+                  <button class="card__button">Share</button>
+                </div>
+                <span class="card__counter">316 words</span>
+              </div>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card__image"></div>
+
+            <div class="card__content">
+              <h4 class="card__heading">Heading for Article</h4>
+              <p class="card__text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Officia, ab.
+              </p>
+              <div class="card__footer">
+                <div class="card__button-group">
+                  <button class="card__button">Read</button>
+                  <button class="card__button">Share</button>
+                </div>
+                <span class="card__counter">316 words</span>
+              </div>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card__image"></div>
+
+            <div class="card__content">
+              <h4 class="card__heading">Heading for Article</h4>
+              <p class="card__text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Officia, ab.
+              </p>
+              <div class="card__footer">
+                <div class="card__button-group">
+                  <button class="card__button">Read</button>
+                  <button class="card__button">Share</button>
+                </div>
+                <span class="card__counter">316 words</span>
+              </div>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card__image"></div>
+
+            <div class="card__content">
+              <h4 class="card__heading">Heading for Article</h4>
+              <p class="card__text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Officia, ab.
+              </p>
+              <div class="card__footer">
+                <div class="card__button-group">
+                  <button class="card__button">Read</button>
+                  <button class="card__button">Share</button>
+                </div>
+                <span class="card__counter">316 words</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="news-section">
+        <h3 class="news-section__heading">Sport news</h3>
+        <div class="news-section__articles">
+          <article class="card">
+            <div class="card__image"></div>
+
+            <div class="card__content">
+              <h4 class="card__heading">Heading for Article</h4>
+              <p class="card__text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Officia, ab.
+              </p>
+              <div class="card__footer">
+                <div class="card__button-group">
+                  <button class="card__button">Read</button>
+                  <button class="card__button">Share</button>
+                </div>
+                <span class="card__counter">316 words</span>
+              </div>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card__image"></div>
+
+            <div class="card__content">
+              <h4 class="card__heading">Heading for Article</h4>
+              <p class="card__text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Officia, ab.
+              </p>
+              <div class="card__footer">
+                <div class="card__button-group">
+                  <button class="card__button">Read</button>
+                  <button class="card__button">Share</button>
+                </div>
+                <span class="card__counter">316 words</span>
+              </div>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card__image"></div>
+
+            <div class="card__content">
+              <h4 class="card__heading">Heading for Article</h4>
+              <p class="card__text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Officia, ab.
+              </p>
+              <div class="card__footer">
+                <div class="card__button-group">
+                  <button class="card__button">Read</button>
+                  <button class="card__button">Share</button>
+                </div>
+                <span class="card__counter">316 words</span>
+              </div>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card__image"></div>
+
+            <div class="card__content">
+              <h4 class="card__heading">Heading for Article</h4>
+              <p class="card__text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Officia, ab.
+              </p>
+              <div class="card__footer">
+                <div class="card__button-group">
+                  <button class="card__button">Read</button>
+                  <button class="card__button">Share</button>
+                </div>
+                <span class="card__counter">316 words</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </div>
   </body>
 </html>
