@@ -1,9 +1,16 @@
 .card {
+  display: flex;
+  width: 400px;
+  background-color: hotpink;
+  margin: 0.8rem;
+}
 
+article {
+ 
 }
 
 .card__image {
-
+  margin: 0;
 }
 
 .card__heading {
@@ -11,6 +18,10 @@
 }
 
 .card__text {
+
+}
+
+.card__footer {
 
 }
 
