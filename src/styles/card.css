@@ -15,6 +15,22 @@
   height: 395px;
 }
 
+@media (min-width: 768px) {
+  .card__image {
+    background-image: url("https://picsum.photos/340/240");
+    width: 340px;
+    height: 250px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .card__image {
+    background-image: url("https://picsum.photos/320/200");
+    width: 320px;
+    height: 200px;
+  }
+}
+
 .card__content {
   margin: 0.8rem;
 }
