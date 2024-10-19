@@ -3,7 +3,7 @@
   flex-direction: column;
   width: 400px;
   background-color: hotpink;
-  outline: 2px solid greenyellow;
+  outline: 2px solid greenyellow;  
 }
 
 .card__image {
