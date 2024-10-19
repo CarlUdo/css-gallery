@@ -11,7 +11,6 @@
 
 .card__image {
   margin-bottom: 1rem;
-  background-image: url("https://picsum.photos/370/395");
   background-size: cover;
   background-position: center;
   width: 370px;
@@ -24,7 +23,6 @@
   }
 
   .card__image {
-    background-image: url("https://picsum.photos/340/240");
     width: 340px;
     height: 250px;
   }
@@ -36,7 +34,6 @@
   }
 
   .card__image {
-    background-image: url("https://picsum.photos/320/200");
     width: 320px;
     height: 200px;
   }
