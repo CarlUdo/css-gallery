@@ -13,15 +13,21 @@
 
 .news-section__articles {
   display: flex;
-  flex-flow: column wrap;
-  align-content: center;
-  gap: 15px;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 35px;
+}
+
+@media (width < 320px) {
+  .news-section__articles {
+    flex-flow: row wrap;
+    align-content: center;
+    gap: 15px;
+  }
 }
 
 @media (width >= 768px) {
   .news-section__articles {
-    flex-direction: row;
-    justify-content: center;
     gap: 35px;
   }
 }
