@@ -8,6 +8,11 @@
 
 .card__image {
   margin-bottom: 1rem;
+  background-image: url("https://picsum.photos/370/395");
+  background-size: cover;
+  background-position: center;
+  width: 370px;
+  height: 395px;
 }
 
 .card__content {
@@ -48,5 +53,3 @@
   align-self: center;
   font-weight: 600;
 }
-
-
