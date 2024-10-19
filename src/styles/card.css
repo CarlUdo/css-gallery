@@ -1,12 +1,12 @@
 .card {
   display: flex;
   flex-direction: column;
-  width: 370px;
-  background-color: hotpink;
-  outline: 2px solid greenyellow;
+  align-items: center;
+  width: 100%;
+  max-width: 370px;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-  box-shadow: 0 7px 10px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 7px 10px #00000026;
 }
 
 .card__image {
@@ -17,7 +17,7 @@
   height: 395px;
 }
 
-@media (min-width: 768px) {
+@media (width >= 768px) {
   .card {
     width: 340px;
   }
@@ -28,7 +28,7 @@
   }
 }
 
-@media (min-width: 1024px) {
+@media (width >= 1024px) {
   .card {
     width: 320px;
   }
@@ -62,11 +62,18 @@
 }
 
 .card__button {
-  border: 1px solid rgb(67, 67, 67);
+  cursor: pointer;
+  border: 1px solid #434343;
   border-radius: 5px;
   padding: 0.6rem 0.5rem;
   margin-right: 10px;
   font-weight: 600;
+}
+
+.card__button:hover {
+  color: white;
+  background-color: #434343;
+  border: 1px solid white;
 }
 
 .card__button:last-child {
