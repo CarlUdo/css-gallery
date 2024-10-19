@@ -18,7 +18,7 @@
 }
 
 .container {
-  padding: 1rem 0.2rem;
+  padding: 2.5rem 0.2rem 1rem 0.2rem;
   border: 2px solid hotpink;
 }
 
@@ -26,46 +26,4 @@
   .container {
     padding: 6rem 4rem 3rem 4rem;
   }
-}
-
-section {
-  display: flex;
-  flex: row;
-  flex-wrap: wrap;
-}
-
-header {
-  text-align: center;
-}
-
-.header__links > a {
-  display: none;
-}
-
-@media (min-width: 768px) {
-  .header__links {
-    margin: 1rem 0;
-  }
-
-  .header__links > a {
-    display: inline-block;
-    text-decoration: none;
-    border: 1px solid black;
-    padding: 0.5rem;
-    margin-right: 0.5rem;
-  }
-}
-
-h1 {
-  font-weight: 900;
-  font-size: 2.5rem;
-}
-
-.h1-sub-heading {
-  font-weight: 800;
-  font-size: 1.8rem;
-}
-
-h2 {
-  color: blue;
 }
