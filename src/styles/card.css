@@ -1,12 +1,9 @@
 .card {
   display: flex;
+  flex-direction: column;
   width: 400px;
   background-color: hotpink;
   margin: 0.8rem;
-}
-
-article {
- 
 }
 
 .card__image {
@@ -22,11 +19,25 @@ article {
 }
 
 .card__footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
+.card__button-group {
+  display: inline-block;
 }
 
 .card__button {
+  border: 1px solid rgb(24, 24, 24);
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin-right: 10px;
+  font-weight: 600;
+}
 
+.card__button:last-child {
+  margin-right: 0;
 }
 
 .card__counter {
