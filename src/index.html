@@ -14,15 +14,18 @@
     <script>
       document.addEventListener("DOMContentLoaded", () => {
         const cards = document.querySelectorAll(".card__image");
+        let img;
 
         cards.forEach((card, index) => {
           if (window.innerWidth < 768) {
-            card.style.backgroundImage = `url('https://picsum.photos/370/390?random=${index + 1}')`;
+            img = `https://picsum.photos/370/390?random=${index + 1}`; 
           } else if (window.innerWidth >= 768 && window.innerWidth < 1024) {
-            card.style.backgroundImage = `url('https://picsum.photos/340/250?random=${index + 1}')`;
+            img = `https://picsum.photos/340/250?random=${index + 1}`;
           } else {
-            card.style.backgroundImage = `url('https://picsum.photos/320/200?random=${index + 1}')`;
+            img = `https://picsum.photos/320/200?random=${index + 1}`;
           }
+          card.setAttribute('src', img);
+          card.setAttribute('alt', 'Random image');
         });
       });
     </script>
@@ -43,7 +46,7 @@
         <h3 class="news-section__heading">Breaking news</h3>
         <div class="news-section__articles">
           <article class="card">
-            <div class="card__image"></div>
+            <img class="card__image">
 
             <div class="card__content">
               <h4 class="card__heading">Heading for Article</h4>
@@ -61,7 +64,7 @@
             </div>
           </article>
           <article class="card">
-            <div class="card__image"></div>
+            <img class="card__image">
 
             <div class="card__content">
               <h4 class="card__heading">Heading for Article</h4>
@@ -79,7 +82,7 @@
             </div>
           </article>
           <article class="card">
-            <div class="card__image"></div>
+            <img class="card__image">
 
             <div class="card__content">
               <h4 class="card__heading">Heading for Article</h4>
@@ -97,7 +100,7 @@
             </div>
           </article>
           <article class="card">
-            <div class="card__image"></div>
+            <img class="card__image">
 
             <div class="card__content">
               <h4 class="card__heading">Heading for Article</h4>
@@ -121,7 +124,7 @@
         <h3 class="news-section__heading">International news</h3>
         <div class="news-section__articles">
           <article class="card">
-            <div class="card__image"></div>
+            
 
             <div class="card__content">
               <h4 class="card__heading">Heading for Article</h4>
@@ -139,7 +142,7 @@
             </div>
           </article>
           <article class="card">
-            <div class="card__image"></div>
+            <img class="card__image">
 
             <div class="card__content">
               <h4 class="card__heading">Heading for Article</h4>
@@ -157,7 +160,7 @@
             </div>
           </article>
           <article class="card">
-            <div class="card__image"></div>
+            <img class="card__image">
 
             <div class="card__content">
               <h4 class="card__heading">Heading for Article</h4>
@@ -175,7 +178,7 @@
             </div>
           </article>
           <article class="card">
-            <div class="card__image"></div>
+            <img class="card__image">
 
             <div class="card__content">
               <h4 class="card__heading">Heading for Article</h4>
@@ -199,7 +202,7 @@
         <h3 class="news-section__heading">Sport news</h3>
         <div class="news-section__articles">
           <article class="card">
-            <div class="card__image"></div>
+            <img class="card__image">
 
             <div class="card__content">
               <h4 class="card__heading">Heading for Article</h4>
@@ -217,7 +220,7 @@
             </div>
           </article>
           <article class="card">
-            <div class="card__image"></div>
+            <img class="card__image">
 
             <div class="card__content">
               <h4 class="card__heading">Heading for Article</h4>
@@ -235,7 +238,7 @@
             </div>
           </article>
           <article class="card">
-            <div class="card__image"></div>
+            <img class="card__image">
 
             <div class="card__content">
               <h4 class="card__heading">Heading for Article</h4>
@@ -253,7 +256,7 @@
             </div>
           </article>
           <article class="card">
-            <div class="card__image"></div>
+            <img class="card__image">
 
             <div class="card__content">
               <h4 class="card__heading">Heading for Article</h4>
@@ -272,6 +275,8 @@
           </article>
         </div>
       </section>
+
+      
     </main>
   </body>
 </html>
