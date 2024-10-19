@@ -1,7 +1,7 @@
 .card {
   display: flex;
   flex-direction: column;
-  width: 400px;
+  width: 370px;
   background-color: hotpink;
   outline: 2px solid greenyellow;  
 }
@@ -16,6 +16,10 @@
 }
 
 @media (min-width: 768px) {
+  .card {
+    width: 340px;
+  }
+
   .card__image {
     background-image: url("https://picsum.photos/340/240");
     width: 340px;
@@ -24,6 +28,10 @@
 }
 
 @media (min-width: 1024px) {
+  .card {
+    width: 320px;
+  }
+
   .card__image {
     background-image: url("https://picsum.photos/320/200");
     width: 320px;

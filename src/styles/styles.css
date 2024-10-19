@@ -18,14 +18,13 @@
 }
 
 .container {
-  padding: 3.5rem;
+  padding: 1rem 0.2rem;
+  border: 2px solid hotpink;
 }
 
-@media (max-width: 767px) {
+@media (min-width: 768px) {
   .container {
-    padding:
-      3,
-      5rem 0.2rem;
+    padding: 6rem 4rem 3rem 4rem;
   }
 }
 
