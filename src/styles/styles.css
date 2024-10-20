@@ -11,6 +11,7 @@ html {
 body {
   color: #181818;
   background-color: #fafafa;
+  letter-spacing: -0.032em;
   font-family:
     Roboto,
     system-ui,

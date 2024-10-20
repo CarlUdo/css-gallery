@@ -1,11 +1,13 @@
 .news-section {
   display: flex;
   flex-direction: column;
-  margin: 2.5rem 0 3rem;
+  margin: 2.3rem 0.2rem 3.9rem;
 }
 
 .news-section__heading {
   border-bottom: 1px solid #434343;
+  font-weight: 900;
+  font-size: 1.3rem;
   padding-bottom: 0.5rem;
   margin-bottom: 2rem;
 }
