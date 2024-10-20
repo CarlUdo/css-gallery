@@ -58,7 +58,7 @@
 
 .card__button {
   cursor: pointer;
-  border: 1px solid #434343;
+  border: 1px solid #828282;
   border-radius: 5px;
   padding: 0.6rem 0.5rem;
   margin-right: 10px;
@@ -67,7 +67,7 @@
 
 .card__button:hover {
   color: white;
-  background-color: #434343;
+  background-color: #828282;
   border: 1px solid white;
 }
 
