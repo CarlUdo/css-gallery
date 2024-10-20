@@ -1,9 +1,16 @@
 * {
-  color: #181818;
-  background-color: #fafafa;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  color: #181818;
+  background-color: #fafafa;
   font-family:
     Roboto,
     system-ui,
